@@ -19,7 +19,6 @@ function App() {
       <Projects />
       <Skills />
       <Internship />
-      <Skills />
       <Contact />
       <Achievements2/>
       <Thanks />

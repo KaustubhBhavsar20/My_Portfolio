@@ -1382,7 +1382,8 @@ textarea.contact-input {
     margin-right: 0; /* Ensure full centering */
     width: 80%; /* Adjust width for better fit */
     justify-content: center; /* Center content */
-    gap: 10px; /* Adds spacing between items */
+    gap: 6px; /* Adds spacing between items */
+    margin-bottom: 40px;
   }
 }
 
@@ -1548,4 +1549,32 @@ textarea.contact-input {
 #thanks{
   margin-top: -100px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 480px) {
+  .contact-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* Slightly reduced gap for smaller screens */
+  }
+
+  .contact-item {
+    min-width: unset; /* Ensures responsiveness */
+    justify-content: center;
+    margin-left: -20px;
+  }
+
+  .social-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Further reduced gap for better stacking */
+  }
+
+  .contact-item-title{
+    font-size: var(--fs-5);
+    font-weight: var(--fw-600);
+  }
+  .contact-item-link{
+    font-size: 15px;
+  }
 }

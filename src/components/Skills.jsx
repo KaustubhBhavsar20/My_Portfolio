@@ -22,6 +22,7 @@ import MlImg from "../assets/images/logos/ml.png"
 import DSImg from  "../assets/images/logos/ds.png"
 import OopsImg from  "../assets/images/logos/oops.png"
 import JqueryImg from  "../assets/images/logos/jquery.png"
+import DockerImg from  "../assets/images/logos/docker.png"
 import LeaderImg from  "../assets/images/logos/speaker.jpg"
 
 const skillsData = [
@@ -46,7 +47,9 @@ const skillsData = [
   { name: "Data Structures", img: DSImg },
   { name: "OOPS", img: OopsImg },
   { name: "JQuery", img: JqueryImg },
+  { name: "Docker", img: DockerImg },
   { name: "Leadership", img: LeaderImg },
+
 ];
 
 const Skills = () => {

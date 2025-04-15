@@ -68,7 +68,7 @@ const Header = () => {
               <li><a href="#experience" className="navbar-link" data-nav-link>Experience</a></li>
               <li><a href="#contact" className="navbar-link" data-nav-link>Contact</a></li>
               <li><a href="#achievement" className="navbar-link" data-nav-link>Achievements</a></li>
-              <li><a href="https://drive.google.com/file/d/1pxv2ulw_LMACqCHhcRmzAqBcgV2ZVeK_/view?usp=sharing" target="_blank" className="btn btn-primary blue">Download CV</a></li>
+              <li><a href="https://drive.google.com/file/d/1pQwIETzrjRRnP41xVIGysUwHxP7Ylpjw/view?usp=sharing" target="_blank" className="btn btn-primary blue">Download CV</a></li>
             </ul>
           </nav>
           <button data-back-to-top className="back-to-top" >

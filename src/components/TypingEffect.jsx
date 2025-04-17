@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const roles = ["Full Stack Developer", "Competitive Programmer", "AI ML Enthusiast", "Computer Engineer"];
+const roles = ["Full Stack Developer", "Competitive Programmer", "AI-ML Enthusiast", "Computer Engineer"];
 
 const TypingEffect = () => {
   const [text, setText] = useState("");
